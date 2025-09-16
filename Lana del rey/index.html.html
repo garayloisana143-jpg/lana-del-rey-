@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title> Tp Loisana Garay </title>
+
+<style type="text/css" id="operaUserStyle">
+  video {
+    filter: -opera-shader(url(data:text/plain;base64,Ly8gaHR0cHM6Ly9naXRodWIuY29tL0dQVU9wZW4tRWZmZWN0cy9GaWRlbGl0eUZYLUNBUwovLyB2MwoKdW5pZm9ybSBzaGFkZXIgaUNodW5rOwp1bmlmb3JtIGZsb2F0MiBpQ2h1bmtTaXplOwp1bmlmb3JtIGZsb2F0MiBpTW91c2U7CnVuaWZvcm0gZmxvYXQgaUFyZ3NbMV07Cgpjb25zdCBmbG9hdCBFUFNJT04gPSAwLjE7CmNvbnN0IGZsb2F0IFZfTUlOID0gMDsKY29uc3QgZmxvYXQgVl9MT1cgPSAwLjI1Owpjb25zdCBmbG9hdCBWX01FRCA9IDAuNTsKY29uc3QgZmxvYXQgVl9ISUdIID0gMC43NTsKY29uc3QgZmxvYXQgVl9NQVggPSAxOwoKY29uc3QgZmxvYXQgVEhSRVNIT0xEX0FSRUEgPSA4MDAgKiA2MDA7CmNvbnN0IGZsb2F0IE1JTl9BUkVBID0gNDAwICogMTAwOwpjb25zdCBmbG9hdCBNSU5fU1RSSVAgPSAyMDsKY29uc3QgZmxvYXQgTUFSR0lOID0gMTsKCmZsb2F0MyBwaXhlbChpbnQgeCwgaW50IHksIGZsb2F0MiB4eSkgewogICAgcmV0dXJuIGlDaHVuay5ldmFsKHh5ICsgZmxvYXQyKHgsIHkpKS5yZ2I7Cn0KCmZsb2F0MyBzaGFycGVuKGZsb2F0MiB4eSkgewogICAgZmxvYXQzIGYgPQogICAgICAgIHBpeGVsKC0xLCAtMSwgeHkpICogIDEgKwogICAgICAgIHBpeGVsKCAwLCAtMSwgeHkpICogLTEgKwogICAgICAgIHBpeGVsKCAxLCAtMSwgeHkpICogIDEgKwoKICAgICAgICBwaXhlbCgtMSwgMCwgeHkpICogLTEgICsKICAgICAgICBwaXhlbCggMCwgMCwgeHkpICogLTEgICsKICAgICAgICBwaXhlbCggMSwgMCwgeHkpICogLTEgICsKCiAgICAgICAgcGl4ZWwoLTEsIDEsIHh5KSAqIDEgICArCiAgICAgICAgcGl4ZWwoIDAsIDEsIHh5KSAqIC0xICArCiAgICAgICAgcGl4ZWwoIDEsIDEsIHh5KSAqIDE7CiAgICByZXR1cm4gZiAvIC0xOwp9CgpmbG9hdDQgUkdYMihmbG9hdDIgeHkpIHsKICAgIGZsb2F0NCBjb2xvciA9IGlDaHVuay5ldmFsKHh5KTsKCiAgICBpZiAoaUNodW5rU2l6ZS54ICogaUNodW5rU2l6ZS55IDwgTUlOX0FSRUEpIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgaWYgKGlDaHVua1NpemUueSA8IE1JTl9TVFJJUCB8fCBpQ2h1bmtTaXplLnggPCBNSU5fU1RSSVApIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgaWYgKHh5LnggPCBNQVJHSU4gfHwgeHkueCA+IChpQ2h1bmtTaXplLnggLSBNQVJHSU4pIHx8CiAgICAgICAgeHkueSA8IE1BUkdJTiB8fCB4eS55ID4gKGlDaHVua1NpemUueSAtIE1BUkdJTikpIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgcmV0dXJuIGZsb2F0NChzaGFycGVuKHh5KSwgMSk7Cn0KCmZsb2F0IG1pbjMoZmxvYXQgeCwgZmxvYXQgeSwgZmxvYXQgeikgewogICAgcmV0dXJuIG1pbih4LCBtaW4oeSwgeikpOwp9CgpmbG9hdCBtYXgzKGZsb2F0IHgsIGZsb2F0IHksIGZsb2F0IHopIHsKICAgIHJldHVybiBtYXgoeCwgbWF4KHksIHopKTsKfQoKZmxvYXQgcmNwKGZsb2F0IHYpIHsKICAgIHJldHVybiAxIC8gdjsKfQoKZmxvYXQzIFJHWDMoZmxvYXQyIHh5LCBmbG9hdCBzdHJlbmd0aCkgewogICAgZmxvYXQzIGEgPSBwaXhlbCgtMSwgLTEsIHh5KTsKICAgIGZsb2F0MyBiID0gcGl4ZWwoIDAsIC0xLCB4eSk7CiAgICBmbG9hdDMgYyA9IHBpeGVsKCAxLCAtMSwgeHkpOwoKICAgIGZsb2F0MyBkID0gcGl4ZWwoLTEsIDAsIHh5KTsKICAgIGZsb2F0MyBlID0gcGl4ZWwoIDAsIDAsIHh5KTsKICAgIGZsb2F0MyBmID0gcGl4ZWwoIDEsIDAsIHh5KTsKCiAgICBmbG9hdDMgZyA9IHBpeGVsKC0xLCAxLCB4eSk7CiAgICBmbG9hdDMgaCA9IHBpeGVsKCAwLCAxLCB4eSk7CiAgICBmbG9hdDMgaSA9IHBpeGVsKCAxLCAxLCB4eSk7CgogICAgZmxvYXQgbW5SID0gbWluMyhtaW4zKGQuciwgZS5yLCBmLnIpLCBiLnIsIGgucik7CiAgICBmbG9hdCBtbkcgPSBtaW4zKG1pbjMoZC5nLCBlLmcsIGYuZyksIGIuZywgaC5nKTsKICAgIGZsb2F0IG1uQiA9IG1pbjMobWluMyhkLmIsIGUuYiwgZi5iKSwgYi5iLCBoLmIpOwoKICAgIGZsb2F0IG1uUjIgPSBtaW4zKG1pbjMobW5SLCBhLnIsIGMuciksIGcuciwgaS5yKTsKICAgIGZsb2F0IG1uRzIgPSBtaW4zKG1pbjMobW5HLCBhLmcsIGMuZyksIGcuZywgaS5nKTsKICAgIGZsb2F0IG1uQjIgPSBtaW4zKG1pbjMobW5CLCBhLmIsIGMuYiksIGcuYiwgaS5iKTsKCiAgICBtblIgPSBtblIgKyBtblIyOwogICAgbW5HID0gbW5HICsgbW5HMjsKICAgIG1uQiA9IG1uQiArIG1uQjI7CgogICAgZmxvYXQgbXhSID0gbWF4MyhtYXgzKGQuciwgZS5yLCBmLnIpLCBiLnIsIGgucik7CiAgICBmbG9hdCBteEcgPSBtYXgzKG1heDMoZC5nLCBlLmcsIGYuZyksIGIuZywgaC5nKTsKICAgIGZsb2F0IG14QiA9IG1heDMobWF4MyhkLmIsIGUuYiwgZi5iKSwgYi5iLCBoLmIpOwoKICAgIGZsb2F0IG14UjIgPSBtYXgzKG1heDMobXhSLCBhLnIsIGMuciksIGcuciwgaS5yKTsKICAgIGZsb2F0IG14RzIgPSBtYXgzKG1heDMobXhHLCBhLmcsIGMuZyksIGcuZywgaS5nKTsKICAgIGZsb2F0IG14QjIgPSBtYXgzKG1heDMobXhCLCBhLmIsIGMuYiksIGcuYiwgaS5iKTsKCiAgICBteFIgPSBteFIgKyBteFIyOwogICAgbXhHID0gbXhHICsgbXhHMjsKICAgIG14QiA9IG14QiArIG14QjI7CgogICAgZmxvYXQgcmNwTVIgPSByY3AobXhSKTsKICAgIGZsb2F0IHJjcE1HID0gcmNwKG14Ryk7CiAgICBmbG9hdCByY3BNQiA9IHJjcChteEIpOwoKICAgIGZsb2F0IGFtcFIgPSBzYXR1cmF0ZShtaW4obW5SLCAyIC0gbXhSKSAqIHJjcE1SKTsKICAgIGZsb2F0IGFtcEcgPSBzYXR1cmF0ZShtaW4obW5HLCAyIC0gbXhHKSAqIHJjcE1HKTsKICAgIGZsb2F0IGFtcEIgPSBzYXR1cmF0ZShtaW4obW5CLCAyIC0gbXhCKSAqIHJjcE1CKTsKCiAgICBhbXBSID0gc3FydChhbXBSKTsKICAgIGFtcEcgPSBzcXJ0KGFtcEcpOwogICAgYW1wQiA9IHNxcnQoYW1wQik7CgogICAgZmxvYXQgcGVhayA9IC1yY3AobWl4KDgsIDUsIHN0cmVuZ3RoKSk7CgogICAgZmxvYXQgd1IgPSBhbXBSICogcGVhazsKICAgIGZsb2F0IHdHID0gYW1wRyAqIHBlYWs7CiAgICBmbG9hdCB3QiA9IGFtcEIgKiBwZWFrOwoKICAgIGZsb2F0IHJjcFdlaWdodFIgPSByY3AoMSArIDQgKiB3Uik7CiAgICBmbG9hdCByY3BXZWlnaHRHID0gcmNwKDEgKyA0ICogd0cpOwogICAgZmxvYXQgcmNwV2VpZ2h0QiA9IHJjcCgxICsgNCAqIHdCKTsKCiAgICByZXR1cm4gZmxvYXQzKAogICAgICAgIHNhdHVyYXRlKChiLnIgKiB3UiArIGQuciAqIHdSICsgZi5yICogd1IgKyBoLnIgKiB3UiArIGUucikgKiByY3BXZWlnaHRSKSwKICAgICAgICBzYXR1cmF0ZSgoYi5nICogd0cgKyBkLmcgKiB3RyArIGYuZyAqIHdHICsgaC5nICogd0cgKyBlLmcpICogcmNwV2VpZ2h0RyksCiAgICAgICAgc2F0dXJhdGUoKGIuYiAqIHdCICsgZC5iICogd0IgKyBmLmIgKiB3QiArIGguYiAqIHdCICsgZS5iKSAqIHJjcFdlaWdodEIpKTsKfQoKCmZsb2F0NCBtYWluKGZsb2F0MiB4eSkgewoKICAgIGZsb2F0NCBvcmlnaW5hbENvbG9yID0gaUNodW5rLmV2YWwoeHkpOwogICAgaWYgKG9yaWdpbmFsQ29sb3IuYSA8IDEpIHsKICAgICAgICByZXR1cm4gaUNodW5rLmV2YWwoeHkpOwogICAgfQoKICAgIGZsb2F0IGludGVuc2l0eSA9IGlBcmdzWzBdOwogICAgZmxvYXQgc3RyZW5ndGggPSAwOwogICAgZmxvYXQzIGNvbG9yOwoKICAgIGlmIChpbnRlbnNpdHkgPCBWX01JTiArIEVQU0lPTikgewogICAgICAgIHN0cmVuZ3RoID0gMC4xMDsKICAgICAgICBjb2xvciA9IFJHWDMoeHksIHN0cmVuZ3RoKTsKCiAgICB9IGVsc2UgaWYgKGludGVuc2l0eSA+IFZfTE9XIC0gRVBTSU9OICYmIGludGVuc2l0eSA8IFZfTE9XICsgRVBTSU9OKSB7CiAgICAgICAgc3RyZW5ndGggPSAwLjMzOwogICAgICAgIGNvbG9yID0gUkdYMyh4eSwgc3RyZW5ndGgpOwoKICAgIH0gZWxzZSBpZiAoaW50ZW5zaXR5ID4gVl9NRUQgLSBFUFNJT04gJiYgaW50ZW5zaXR5IDwgVl9NRUQgKyBFUFNJT04pIHsKICAgICAgICBzdHJlbmd0aCA9IDAuNTsKICAgICAgICBjb2xvciA9IFJHWDMoeHksIHN0cmVuZ3RoKTsKCiAgICB9IGVsc2UgaWYgKGludGVuc2l0eSA+IFZfSElHSCAtIEVQU0lPTiAmJiBpbnRlbnNpdHkgPCBWX0hJR0ggKyBFUFNJT04pIHsKICAgICAgICBzdHJlbmd0aCA9IDAuOTk7CiAgICAgICAgY29sb3IgPSBSR1gzKHh5LCBzdHJlbmd0aCk7CgogICAgfSBlbHNlIGlmIChpbnRlbnNpdHkgPiBWX01BWCAtIEVQU0lPTikgewogICAgICAgIHN0cmVuZ3RoID0gMTsKICAgICAgICBjb2xvciA9IFJHWDIoeHkpLnJnYjsKICAgIH0KCiAgICByZXR1cm4gZmxvYXQ0KGNvbG9yLCBvcmlnaW5hbENvbG9yLmEpOwp9) -opera-args(0.50 calc(env(-opera-gx-accent-color-r)/255) calc(env(-opera-gx-accent-color-g)/255) calc(env(-opera-gx-accent-color-b)/255)));
+}
+</style></head>
+<body>
+
+<main class="container  d-flex align-items-center justify-content-center alto-100">
+    <div class="row">
+    <div class="col-12 col-lg-9 ">
+        <div class="row">
+            <div class="col-12 col-lg-8 p-2 ">
+
+            <div class="card h-100 bg-success shadow-lg">
+                
+                <div class="card-body">
+                <div class="d-flex mb-3">
+                        <img src="imagenes/lana del rey.jpg" class="border border-secondary border-3 rounded-circle">
+                    <div class="ps-lg-3">
+                        <h6 class="m-0 h6"><b>Lana del Rey</b></h6>
+                        <p class="m-0 h6">Artista musical estadounidense</p>
+                    </div>
+                </div>
+                <div>
+                    
+                    <p class="fs-6 lh-1"></p>Lana Del Rey es el nombre artístico de Elizabeth Woolridge Grant, cantante, compositora y modelo estadounidense nacida en 1985 en Nueva York. Es reconocida por su estilo melancólico y cinematográfico, que combina géneros como el pop alternativo, el rock, el dream pop y la música indie. Sus letras suelen explorar temas como el amor, la tristeza, la nostalgia, la cultura estadounidense y la fama.
+                    <p></p>
+                </div>
+                
+                </div>
+            </div>
+            </div>
+
+            <div class="col-12 col-lg-4 p-2 ">
+
+            <div class="card h-100 bg-primary fondo-card shadow-lg">
+                
+                <div class="card-body">
+                <div class="d-flex mb-3">
+                    <img src="imagenes/Did you know that there's a tunnel.jpg" class="border border-secondary border-3 rounded-circle">
+                        <div class="ps-lg-3">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="h6"> <b> You know that there's a tunnel under Ocean Blvd</b></p>
+                        <p class="h6"> Es el sencillo principal del noveno álbum de Lana Del Rey, lanzado el 7 de diciembre de 2022
+                </p>
+                </div>
+                
+                </div>
+            </div>
+            </div>
+
+            <div class="col-12 col-lg-4 p-2">
+
+            <div class="card h-100 bg-warning shadow-lg">
+                
+                <div class="card-body">
+                <div class="d-flex mb-3">
+                        <img src="imagenes/paradaise.jpg" class="border border-secondary border-3 rounded-circle">
+                    <div class="ps-lg-3">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p class="fs-6 lh-1"></p><b>Paradise</b><p></p>
+                    <p class="fs-6 lh-1"> Es el tercer extended play de la cantante estadounidense Lana Del Rey. El EP salió a la venta en el Reino Unido el 12 noviembre de 2012</p>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+
+              <div class="col-12 col-lg-8 p-2">
+
+                <div class="card h-100 bg-danger shadow-lg">
+                
+                  <div class="card-body">
+                    <div class="d-flex mb-3">
+                        
+                        <img src="imagenes/honeymoon.jpg" class="border border-secondary border-3 rounded-circle">
+                  <div class="ps-lg-3">
+                  </div>
+              </div>
+              <div>
+                  <p class="fs-6 lh-1"></p> <b>Honeymoon</b><p></p>
+                                          <p class="fs-6 lh-1">Es el tercer álbum de estudio de la cantante estadounidense Lana Del Rey. ​ Fue lanzado el 18 de septiembre de 2015 bajo el sello discográfico UMG Recordings y fue coproducido por Del Rey junto a Rick Nowels y Kieron Menzies</p>
+                    </div>
+                  
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      
+    <div class="col-12 col-lg-3 p-2">
+
+        <div class="card h-100 bg-secondary shadow-lg">
+                
+          <div class="card-body">
+            <div class="d-flex mb-3">
+                  <img src="imagenes/ultraviolence.jpg" class="border border-secondary border-3 rounded-circle">
+                <div class="ps-lg-3">
+
+                </div>
+            </div>
+            <div>
+                <h6 class="m-0 h6"><b>Ultraviolence</b></h6>
+                <p class="h6"> Ultraviolence es el tercer álbum de estudio de Lana Del Rey, lanzado en 2014. Representa un cambio en su estilo respecto a Born to Die, con un sonido más crudo y rockero, influenciado por géneros como el rock psicodélico, blues rock y dream pop.
+                    El disco fue producido principalmente por Dan Auerbach (de The Black Keys) y se caracteriza por su atmósfera oscura, letras melancólicas y una estética cinematográfica. Entre sus canciones más conocidas están West Coast, Brooklyn Baby, Shades of Cool y la que da título al álbum, Ultraviolence.
+
+En cuanto a temática, las letras exploran relaciones tóxicas, dependencia emocional, rebeldía y crítica a la fama, siempre con la impronta nostálgica y poética que caracteriza a Lana Del Rey.
+                </p>
+                
+            </div>
+          
+          </div>
+        </div>
+      </div></div>
+  </main> 
+
+
+</body></html>
